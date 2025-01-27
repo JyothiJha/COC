@@ -52,7 +52,6 @@ require_once "login_val.php";
                               <div class="alert alert-success">
                                     <?= $_SESSION['user_success'] ?>
                                 </div>
-                              
                               <?php } 
                               unset($_SESSION['user_success']);
                               ?>
